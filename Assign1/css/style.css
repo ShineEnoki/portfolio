@@ -14,7 +14,7 @@ body{
 }
 
 nav{
-    background-color: rgba(199, 50, 57, 0.904);
+    overflow: hidden;
     display:flex;
     margin:auto;
     padding:20px 0;
@@ -74,20 +74,24 @@ div>img{
     text-align: center;
     margin-top: 250px;
     margin-left: 10px;
+    line-height: 1em;
+    
 }
 
 h1>span{
     color: rgba(255, 0, 0, 0.945);
+    text-shadow: -2px 2px 5px rgb(11, 240, 11);
 }
 
 p{
-    line-height: 20px;
-    font-family: "Sofia", sans-serif;
+    line-height: 2em;
 }
 
 p>span{
     font-weight: bold;
     font-size: x-large;
+    font-family: "Sofia", sans-serif;
+
 }
 
 .reply{
