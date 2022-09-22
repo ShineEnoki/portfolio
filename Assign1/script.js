@@ -1,6 +1,11 @@
-document.querySelector(".btn").onclick = function () {
-    document
-        .querySelector(".reply")
-        .textContent = "Sorry,due to political situation I can't provite my CV."
-}
+const express = require("express");
+const app = express();
+
+app.listen (3000, () => {
+    console.log("Application started and listening on port 3000");
+});
+
+app.get("/", (req,res) => {
+    res.sendFile(__dirname + "index.html");
+});
 
